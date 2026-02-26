@@ -1,0 +1,36 @@
+/* ─── RESET ─── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  background: #020209;
+  color: #e8e8ff;
+  font-family: 'Syne', sans-serif;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── CSS VARIABLES ─── */
+:root {
+  --bg:   #020209;
+  --bg2:  #06061a;
+  --s1:   #0a0a20;
+  --s2:   #0f0f2d;
+  --s3:   #161638;
+  --b1:   #1e1e4a;
+  --b2:   #272760;
+  --c1:   #00f5ff;
+  --c2:   #7c3aed;
+  --c3:   #ff006e;
+  --c4:   #00ff88;
+  --gold: #ffd700;
+  --ora:  #ff6b35;
+  --t1:   #eeeeff;
+  --t2:   #6666aa;
+  --t3:   #33335a;
+}
+
+/* ─── SCROLLBAR ─── */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: var(--s1); }
+::-webkit-scrollbar-thumb { background: var(--b2); border-radius: 2px; }
